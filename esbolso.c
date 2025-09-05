@@ -3,7 +3,7 @@
 int main() {
     //Carta01
     int carta1 = 01;
-    char nome1 = 'Fortaleza';
+    char nome1[20] = "Fortaleza";
     char estado1 = 'Ceara';
     int populacao1 = '2.5';
     int pontosT1 = '35';
@@ -11,11 +11,14 @@ int main() {
 
     //Carta02
     int carta2 = 02;
-    char nome2 = 'Teresina';
+    char nome2[20] = "Teresina";
     char estado2 = 'Piaui';
     int populacao2 = '9.5';
     int pontosT2 = '25';
     float pib2 = '2,5';
+
+    printf("Nome da carta 01: %s\n", nome1);
+    printf("Nome da carta 02: %s\n", nome2);
 
     if ( populacao1 > populacao2 ){
     printf("Carta 01 tem a maior população. \n");
