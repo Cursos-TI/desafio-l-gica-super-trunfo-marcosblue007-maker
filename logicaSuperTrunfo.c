@@ -6,6 +6,18 @@
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
+
+    Carta1
+    char Carta1 = 01;
+    char nome[20] = 'Fortaleza';
+    char estado[20] = 'Ceara';
+
+
+
+
+    
+    //printf("Ola mundo!\n");
+
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
 
